@@ -1,8 +1,11 @@
 export default defineAppConfig({
   title: "Ai Chat",
   ui: {
-    colors: {
-      primary: "blue",
+    button: {
+      slots: {
+        base: "font-bold cursor-pointer",
+        leadingIcon: "opacity-60",
+      },
     },
   },
 });
